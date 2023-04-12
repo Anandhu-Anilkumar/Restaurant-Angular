@@ -6,6 +6,8 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 import { ArticleComponent } from './article/article.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 import { BigDealsComponent } from './big-deals/big-deals.component';
+import { LatestNewsComponent } from './latest-news/latest-news.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { BigDealsComponent } from './big-deals/big-deals.component';
     HeroBannerComponent,
     ArticleComponent,
     OurServicesComponent,
-    BigDealsComponent
+    BigDealsComponent,
+    LatestNewsComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule

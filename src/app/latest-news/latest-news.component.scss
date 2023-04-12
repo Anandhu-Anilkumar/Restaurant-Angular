@@ -1,0 +1,35 @@
+@import "../shared/base/breakpoint";
+@import "../shared/base/color";
+@import "../shared/base/font";
+@import "../shared/base/layout";
+@import "../shared/base/base";
+
+@import "../shared/atoms/heading";
+@import "../shared/atoms/sub-heading";
+@import "../shared/atoms/description";
+
+@import "../shared/molecules/blog";
+
+
+.re-latest-news {
+    background-color: $color-white-1;
+    padding: $spacer-5 0;
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: $spacer-5;
+        padding: $spacer-5 0 0 0;
+    }
+}
+
+@include desktop {
+
+    .re-latest-news {
+
+        .re-blog {
+            width: calc(50% - 16px);
+        }
+    }
+
+}
